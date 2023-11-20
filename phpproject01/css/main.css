@@ -1,0 +1,100 @@
+html {
+    background-image: url("../imgs/EasyVanillaCake2.jpg");
+    font-size: x-large;
+}
+
+/*To make the background translucet*/
+
+.content {
+    background-color: rgba(128, 125, 125, 0.749);
+    padding: auto;
+}
+
+.nav_bar {
+    inset-block: initial;
+    background-color: rgba(223, 214, 214, 0.553);
+    text-align: end;
+}
+
+.nav_bar li {
+    margin-right: 10px;
+    list-style: none;
+    display: inline;
+}
+
+/*To make changes on the pictures on the page*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-left: 30%;
+}
+
+.image {
+    width: 200px;
+    margin: 30px;
+    height: auto;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+/*Other page contents formatting*/
+.signup-form,
+.login-form {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+}
+
+.PageContents ul {
+    padding-left: 30%;
+    list-style-position: inside;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+/*To format the ingredients part*/
+#ingredients {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ingredients li {
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 25%;
+}
+
+.image_links {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Method {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Method h1 {
+    text-align: center;
+}
+
+/*Footer*/
+.ending p {
+    text-align: center;
+    font-weight: 6 00;
+}
